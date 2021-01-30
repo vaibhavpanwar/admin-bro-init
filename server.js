@@ -10,7 +10,7 @@ const DemoQuizData = require("./model/DemoQuizData");
 app.get("/", function (req, res) {
   res.send("Hello World!");
 });
-//Database
+//Database connection
 connectDB();
 //Admin Bro
 AdminBro.registerAdapter(AdminBroMongoose);
